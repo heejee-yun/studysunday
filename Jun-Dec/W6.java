@@ -30,6 +30,28 @@ public class test {
 		        print("%d번 학생은 불합격입니다." % number)
 		
 	
+		Scanner scanner = new Scanner(System.in); 		
+		System.out.println("몇월을 원하시는거죠?");         
+		int month = scanner.nextInt();          
+		scanner.close();          
+		switch (month) {         
+			case 1: System.out.println(month + "월은 겨울 입니다!");         
+			case 2: System.out.println(month + "월은 겨울 입니다!");         
+			case 3: System.out.println(month + "월은 봄 입니다!");          
+			case 4: System.out.println(month + "월은 봄 입니다!");         
+			case 5: System.out.println(month + "월은 봄 입니다!"); ;         
+			case 6: System.out.println(month + "월은 여름 입니다!");         
+			case 7: System.out.println(month + "월은 여름 입니다!");          
+			case 8: System.out.println(month + "월은 여름 입니다!");          
+			case 9: System.out.println(month + "월은 가을 입니다!");         
+			case 10: System.out.println(month + "월은 가을 입니다!");          
+			case 11: System.out.println(month + "월은 가을 입니다!");          
+			case 12: System.out.println(month + "월은 겨울 입니다");          
+			default: System.out.println("1~12의 값을 입력해 주세요");
+		} 	}
+				
+				
+				
 	
 	}
 
