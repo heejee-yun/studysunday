@@ -50,8 +50,7 @@ public class test {
 			default: System.out.println("1~12의 값을 입력해 주세요");
 		} 	}
 			
-		public class SwitchTest {
-	public static void main(String[] args) {
+		
 		// 언어 모드 선택 프로그램
 		// 사용자로부터 선택을 받아
 		// 해당 언어 모드로 바꾸었다는 메시지 출력하기
@@ -93,10 +92,7 @@ public class test {
 			break;
 		default:
 			System.out.println(errMsg);
-		}
-	}
-}
-				
+		}			
 				
 	
 	}
